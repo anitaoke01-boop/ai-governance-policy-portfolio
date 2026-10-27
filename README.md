@@ -12,6 +12,6 @@ This portfolio demonstrates policy analysis, practical risk governance, and an h
 
 ## Publication and reuse
 
-Recommended GitHub repository name: `ai-governance-policy-portfolio`. Keep the repository public if it contains only the included synthetic data and no personal or confidential information. Add a license only after deciding whether code, written work, and data should use separate reuse terms. Never add real citizen enquiries, credentials, or unapproved government data.
+This public repository is named `ai-governance-policy-portfolio`. The included benchmark data are synthetic. Add a license only after deciding whether code, written work, and data should use separate reuse terms. Never add real citizen enquiries, credentials, or unapproved government data.
 
 The policy brief reflects sources available on 27 October 2026, including Nigeria’s 2025 National AI Strategy and N-ATLAS. The model benchmark uses 300 templated synthetic examples; its 60-example test split is too small and artificial to support general claims about production performance. See the benchmark report for limitations and a suitable next evaluation step.
