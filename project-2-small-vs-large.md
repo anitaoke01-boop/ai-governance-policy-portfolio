@@ -1,8 +1,12 @@
 # Small Models vs. Large Models: Public-Service Enquiry Routing
 
+**By Anita Adaugo Okezie**
+
 ## Question
 
-For a narrow internal task—routing a short English enquiry to one of five service desks—can compact local classifiers be a useful first stage before staff review? This is a deliberately small, reproducible engineering demonstration. It is **not** a comparison of a compact model with a frontier-scale LLM, and it does not establish performance on real Nigerian citizens' messages.
+This project asks a narrow question: can compact local classifiers help route short English enquiries to one of five service desks before staff review? It is a small, reproducible demonstration. It does not compare a compact model with a frontier-scale LLM, and it does not establish performance on real Nigerian citizens' messages.
+
+In my AI evaluation work, I have reviewed multi-step model reasoning and agent actions against task instructions. That work has shown me why accuracy alone is not enough. Teams also need to understand error types, reviewer corrections, and whether feedback improves the next round. This benchmark does not measure those live-workflow outcomes. It demonstrates a basic classifier comparison and a reproducible evaluation process.
 
 ## Data and method
 

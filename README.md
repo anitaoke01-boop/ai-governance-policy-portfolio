@@ -2,13 +2,15 @@
 
 **AI governance and policy work, grounded in Nigeria’s public-sector context.**
 
-This portfolio demonstrates policy analysis, practical risk governance, and an honest, reproducible model-evaluation prototype. It is intended as work-sample evidence for AI governance, responsible AI, and technology policy roles.
+By Anita Adaugo Okezie
+
+These work samples bring policy analysis and operational experience together. My AI work has included reviewing model and agent outputs, designing quality criteria, finding recurring failure patterns, and improving the workflows around evaluation. A structured reviewer feedback loop reduced rework by 35% in one AI data operation. I use that experience here to make the recommendations practical, measurable, and attentive to where human judgment is needed.
 
 ## Projects
 
-1. [Nigeria’s Sovereign AI Strategy](project-1-nigeria-sovereign-ai.md) — policy brief on building useful national capability without frontier-scale pretraining.
-2. [Small Models vs. Large Models](project-2-small-vs-large.md) — an explicitly labeled prototype comparing two compact classifiers on synthetic public-service enquiries. It demonstrates evaluation practice; it is not a production benchmark or a comparison against a frontier model.
-3. [Human Oversight and AI Verification Framework](project-3-human-oversight-framework.md) — operational approval, logging, escalation, and failure controls for an enquiry-routing assistant.
+1. [Nigeria’s Sovereign AI Strategy](project-1-nigeria-sovereign-ai.md): a policy brief on building useful national capability without frontier-scale pretraining.
+2. [Small Models vs. Large Models](project-2-small-vs-large.md): a prototype comparing two compact classifiers on synthetic public-service enquiries. It demonstrates evaluation practice. It is not a production benchmark or a comparison against a frontier model.
+3. [Human Oversight and AI Verification Framework](project-3-human-oversight-framework.md): approval, logging, escalation, and failure controls for an enquiry-routing assistant.
 
 ## Publication and reuse
 

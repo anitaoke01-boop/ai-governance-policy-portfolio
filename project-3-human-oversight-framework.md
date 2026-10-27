@@ -1,8 +1,12 @@
 # Human Oversight and AI Verification Framework
 
+**By Anita Adaugo Okezie**
+
 ## Workflow: routing and drafting responses to public-service enquiries
 
 **Purpose.** Help a public-service contact centre identify the responsible service team, retrieve approved guidance, and prepare a draft response. The AI may assist staff; it does not determine a person's eligibility, entitlement, legal status, or priority for scarce services.
+
+**Operational grounding.** In AI operations and evaluation, I have used quality criteria, reviewer calibration, error logs, and root-cause analysis to improve consistency. This framework applies those practical controls to a public-service workflow, where errors can affect people's access to help.
 
 **Basis.** This operational framework adapts the NIST AI RMF lifecycle functions (Govern, Map, Measure, Manage) and the UNESCO principles of proportionality, privacy, traceability, human oversight, and remedy.[1][2] It must be applied alongside the Nigeria Data Protection Act 2023 and relevant sector rules.[3]
 

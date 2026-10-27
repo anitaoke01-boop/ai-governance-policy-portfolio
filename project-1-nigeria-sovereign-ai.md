@@ -2,11 +2,13 @@
 
 ## Policy brief | 27 October 2026
 
+**By Anita Adaugo Okezie**
+
 ### Executive recommendation
 
 Nigeria should pursue **sovereign capability, not frontier-model autarky**. Useful sovereignty means the country can choose, adapt, host, evaluate, govern, and replace AI systems; it does not require training a model with hundreds of billions of parameters from scratch. Nigeria should prioritize shared language and evaluation assets, modest but dependable computing, open-weight models fine-tuned for bounded tasks, and public procurement that rewards measurable local value and accountability. This approach complements the National Artificial Intelligence Strategy published in 2025 and the Nigerian Atlas for Languages and AI at Scale (N-ATLAS), rather than duplicating them. The federal strategy already organizes action around infrastructure, talent, adoption, ethics, and governance; N-ATLAS establishes a multilingual model capability for Yoruba, Hausa, Igbo, and Nigerian-accented English.[1][2]
 
-The immediate test should be whether a system improves a specific service at an acceptable cost and risk—not whether it is Nigerian-made in every technical component. A Nigerian team should retain authority over the data, deployment, evaluation, and exit decision. Models may be locally developed, adapted from open weights, or procured as hosted services, depending on the case and data sensitivity.
+Use one test to judge a pilot: does it improve a specific service at an acceptable cost and level of risk? Nigerian institutions should retain authority over data, deployment, evaluation, and exit. They can develop models locally, adapt open weights, or procure hosted services based on the task and data sensitivity.
 
 ### Why this path fits Nigeria
 
@@ -16,11 +18,11 @@ The opportunity is to invest in scarce complements that are reusable across mode
 
 ### 1. Build a governed language-data commons
 
-Create a federated national program for high-quality text, speech, terminology, and benchmark datasets in Hausa, Yoruba, Igbo, Nigerian English, Nigerian Pidgin, and additional languages selected with communities. Start with practical domains—agriculture extension, health navigation, education, disaster information, and public-service enquiries—where verified content exists and errors can be checked by domain professionals. Do not equate the number of scraped words with language coverage: include regional accents, code-switching, spelling variation, oral registers, disability access, and low-literacy use.
+Create a federated national program for high-quality text, speech, terminology, and benchmark datasets in Hausa, Yoruba, Igbo, Nigerian English, Nigerian Pidgin, and additional languages selected with communities. Start with practical domains such as agriculture extension, health navigation, education, disaster information, and public-service enquiries. Prioritize cases with verified content and domain professionals who can check errors. Measure language coverage by regional accents, code-switching, spelling variation, oral registers, disability access, and low-literacy use, not just by the number of scraped words.
 
 Each dataset should have a named steward, documented provenance and legal basis, a data statement describing collection and exclusions, a license, consent terms where applicable, quality checks, a retention schedule, and a route for correction or removal. Pay native speakers, translators, teachers, and community organizations to create and review examples; do not treat language work as free annotation. Separate public-domain or licensed material from personal data. Use de-identification, minimization, and access controls before any training or testing. The Nigeria Data Protection Act 2023 applies to personal-data processing, including relevant processing by organizations outside Nigeria, and its cross-border transfer provisions require an adequate level of protection through recognized legal mechanisms.[3][4]
 
-Keep the commons federated where centralization would create privacy, security, or ownership problems. Publish safe, useful artifacts—metadata, aggregate quality reports, approved corpora, and test sets—while retaining restricted data with the responsible institution. Include community representatives in access decisions and benefit-sharing arrangements. Language communities should be able to contest harmful or misleading representations.
+Keep the commons federated where centralization would create privacy, security, or ownership problems. Publish safe artifacts such as metadata, aggregate quality reports, approved corpora, and test sets. Keep restricted data with the responsible institution. Include community representatives in access decisions and benefit-sharing arrangements. Language communities should be able to contest harmful or misleading representations.
 
 ### 2. Adapt smaller open-weight models to bounded jobs
 
@@ -28,7 +30,7 @@ For many public tasks, begin with the smallest model that passes the task-specif
 
 Test a range of compact open-weight models and simple non-generative baselines. Compare quality by language, region, input length, code-switching, and user group; track latency, total cost, privacy exposure, failure modes, and review burden. A small model may be cheaper to host and easier to constrain, but it can also be weaker, more brittle, or less safe. Keep a human escalation path for uncertainty and any decision affecting eligibility, benefits, health, legal status, or enforcement. Procurement should specify model and dataset versions, acceptable use, security update duties, logging, independent evaluation access, service levels, and portability to a replacement model.
 
-### 3. Fund shared, resilient computing—not prestige capacity
+### 3. Fund shared, resilient computing for practical workloads
 
 Treat compute as a portfolio of capacity, power, connectivity, operations, and access. Government and universities should inventory existing public cloud and data-centre resources, including the NCAIR/Galaxy Backbone capacity described by NCAIR, and publish available service tiers, queue times, security controls, utilization, and operating costs.[2] That baseline is more useful than announcing a GPU count without electricity, cooling, maintenance, or an accountable user program.
 
@@ -42,15 +44,15 @@ Do not start with autonomous decisions on welfare eligibility, policing, immigra
 
 ### 5. Make data sovereignty practical and lawful
 
-Define sovereignty as enforceable control over purpose, access, retention, security, audit, and exit—not as a blanket rule that every byte must remain physically in Nigeria. Data residency may support security or legal obligations, but location alone cannot prevent misuse, foreign legal access, insecure configuration, or vendor lock-in. Conversely, a lawful transfer can sometimes be safer and more reliable than poorly operated local infrastructure.
+Define sovereignty as enforceable control over purpose, access, retention, security, audit, and exit. Avoid a blanket rule that every byte must remain physically in Nigeria. Data residency may support security or legal obligations, but location alone cannot prevent misuse, foreign legal access, insecure configuration, or vendor lock-in. A lawful transfer can sometimes be safer and more reliable than poorly operated local infrastructure.
 
 For each system, document the data controller and processors, lawful basis, data categories, storage and processing locations, subprocessors, transfer mechanism, retention and deletion, breach responsibilities, and independent audit rights. Apply the Nigeria Data Protection Act and obtain specialist advice for cross-border processing; the NDPC identifies adequacy decisions, approved cross-border instruments, and specified legal grounds among the transfer pathways.[3][4] Keep encryption keys and identity controls under accountable Nigerian institutional control where feasible. Ensure procurement terms permit export of records, prompts, logs, and configuration in usable formats, and require a tested transition plan.
 
 ### 6. Create independent evaluation and incident learning
 
-Establish a publicly funded but operationally independent evaluation function, linked to universities and civil society and able to test vendor and government systems. Publish benchmark protocols before testing, maintain a protected holdout set, disclose funding and conflicts, and permit replication. Assess factuality against authoritative Nigerian sources; language and dialect performance; privacy leakage; security and prompt injection; discriminatory outcomes; robustness to misspellings and code-switching; latency; cost; and human-review load. An evaluation should state what it did not test and the population to which findings may not generalize.
+Establish a publicly funded but operationally independent evaluation function, linked to universities and civil society and able to test vendor and government systems. Publish benchmark protocols before testing, maintain a protected holdout set, disclose funding and conflicts, and permit replication. Assess factuality against authoritative Nigerian sources; language and dialect performance; privacy leakage; security and prompt injection; discriminatory outcomes; robustness to misspellings and code-switching; latency; cost; and human-review load. An evaluation should state what it did not test and the population to which findings may not generalize. My experience reviewing AI outputs has shown me that test results matter only when teams use them to improve rubrics, staff guidance, and the service.
 
-Require pre-deployment testing, a named accountable official, monitoring thresholds, version control, an incident channel, and a pause or rollback procedure. Report significant incidents and corrective actions in a privacy-preserving public register. NIST's AI Risk Management Framework offers a useful operational structure—Govern, Map, Measure, Manage—and calls for lifecycle risk management, contextual testing, documented limitations, and independent review where useful.[6] It is a method reference, not a substitute for Nigerian law or local accountability.
+Require pre-deployment testing, a named accountable official, monitoring thresholds, version control, an incident channel, and a pause or rollback procedure. Report significant incidents and corrective actions in a privacy-preserving public register. NIST's AI Risk Management Framework offers a useful operational structure with four functions: Govern, Map, Measure, and Manage. It calls for lifecycle risk management, contextual testing, documented limitations, and independent review where useful.[6] It is a method reference, not a substitute for Nigerian law or local accountability.
 
 ### 7. Develop the workforce around real delivery
 
@@ -62,7 +64,7 @@ Training should lead to maintained services and transferable skills, not only sh
 
 **First 12 months:** establish a cross-government AI delivery and assurance unit; publish a public-sector use-case inventory and risk tiers; select three low-risk pilots; adopt common dataset documentation, procurement, and evaluation templates; and fund language-data partnerships. Publish baselines and pilot results, including failures.
 
-**Months 12–36:** extend shared compute and secure data services based on audited demand; create the independent evaluation program and multilingual benchmark suite; scale pilots only after external review; and build a continuing talent pipeline with public institutions and local firms.
+**Months 12 to 36:** extend shared compute and secure data services based on audited demand; create the independent evaluation program and multilingual benchmark suite; scale pilots only after external review; and build a continuing talent pipeline with public institutions and local firms.
 
 Measure success by service outcomes and institutional capability: fewer misrouted enquiries, faster and more accurate access to public information, reduced staff time without increased exclusion, coverage and error rates by language, tested recovery time, locally available evaluators and maintainers, dataset reuse under clear permissions, and the ability to switch model providers. Set baselines before targets and publish annual progress. Avoid treating model size, GPU counts, or model launch announcements as proof of public value.
 
