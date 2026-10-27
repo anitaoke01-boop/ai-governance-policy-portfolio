@@ -1,0 +1,176 @@
+{
+  "benchmark": "synthetic public-service enquiry classification",
+  "seed": 20261027,
+  "examples": 300,
+  "train_examples": 240,
+  "test_examples": 60,
+  "class_counts": {
+    "benefits": 60,
+    "education": 60,
+    "health": 60,
+    "roads": 60,
+    "tax": 60
+  },
+  "runtime": {
+    "python": "3.13.9",
+    "scikit_learn": "1.7.2",
+    "numpy": "2.3.5"
+  },
+  "cost_note": "No per-call cloud charge. CPU energy, machine depreciation, engineering, and support costs are not priced; latency is environment-dependent.",
+  "results": [
+    {
+      "model": "Multinomial Naive Bayes",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "mean_cpu_latency_ms_per_enquiry": 0.01416054850051296,
+      "confusion_matrix_labels_order": [
+        "benefits",
+        "education",
+        "health",
+        "roads",
+        "tax"
+      ],
+      "confusion_matrix": [
+        [
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          12
+        ]
+      ],
+      "per_class": {
+        "benefits": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "education": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "health": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "roads": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "mean_cpu_latency_ms_per_enquiry": 0.022774881833659798,
+      "confusion_matrix_labels_order": [
+        "benefits",
+        "education",
+        "health",
+        "roads",
+        "tax"
+      ],
+      "confusion_matrix": [
+        [
+          12,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          12
+        ]
+      ],
+      "per_class": {
+        "benefits": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "education": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "health": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "roads": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "tax": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    }
+  ]
+}
